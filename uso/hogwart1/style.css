@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'wizard_world';
+    src: url('img/WizardWorldSimplified-Kxr7.ttf') format('truetype');
+    font-weight: normal;
+    font-style:simplified;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    color: white ;
+    margin: 0;
+    font-family: 'wizard_world' !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#zaloguj {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    right: 2%;
+    top: 0;
+    font-size: 1.3vmax;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 1%;
+    z-index: 1;
+}
+
+.menu {
+    width: 45%;
+    height: 100%;
+    font-size: clamp(25px, 3vw, 40px);
+    margin-left: 10% !important;
+}
+
+
+.menu-top{
+    margin-top: 3% !important;
+}
+
+#tlo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+
+#tlo_box {
+    width: 88%;
+}
+
+.logo {
+    position: absolute;
+    max-width: 18%;
+    top: 5%;
+    right: 12%;
+}
+
+#tlo_napis {
+    position: absolute;
+    left: 10%;
+    bottom: 13%;
+    border-left: 1px solid white;
+    padding-left: 2%;
+}
+
+#tlo_napis_maly {
+    font-size: clamp(10px, 2vw, 32px);
+    color: white !important;
+}
+
+#tlo_napis_duzy {
+    font-size: clamp(24px, 4vw, 100px);
+    color: white !important;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tresc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+    /*Szerkosc boków */
+    width: 80%;
+    height: 100%;
+    font-size: 2vmax;
+}
+
+/*RANKINGI DOMÓW*/
+
+.dom_wrap {
+    padding: 40px;
+}
+
+
+/*GŁOWNA*/
+
+.glowna_logo {
+    margin-top: 2%;
+    width: 30%;
+}
+
+.glowna_napis {
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+    color: #B1B1B1;
+    font-size: clamp(20px, 2vw, 70px);
+}
+
+.glowna_napis1 {
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+    color: #B1B1B1;
+    font-size: clamp(20px, 2vw, 70px);
+}
+
+#panel_tlo {
+    background-image: url('img/zamek2.png');
+    height: 950px;
+}
+
+#panel_wrap {
+    width: 90%;
+    height: 100%;
+}
+
+
+
+#panel_lewy {
+    width: 20%;
+    height: 100%;
+    background-color: gray;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#panel_prawy {
+    width: 80%;
+    height: 100%;
+    background-color: lightgray;
+    float: right;
+}
+
+.panel_lista {
+    width: 100%;
+    height: 5%;
+    background-color: bisque;
+    border: 1px solid black;
+    color: black !important;
+    font-size: 1vmax;
+}
+
+.powrot {
+    margin: 10px;
+    color: black;
+    width: 100px;
+    font-size: 1vmax;
+    border-radius: 15px;
+    background-color: #B1B1B1;
+    text-align: center;
+}
+
+.panel_box {
+    width: 100%;
+    height: 85%;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: gray;
+}
+
+
+
+.dodaj_punkty{
+    margin-bottom: 10%;
+}
+
+.mobile_logo{
+    width: 15%;
+}
+
+.ranking_border_top{
+    border-top: 1px solid #B1B1B1;
+}
+
+.ranking_border_bottom{
+    border-top: 1px solid #B1B1B1;
+    border-bottom: 1px solid #B1B1B1;
+}
+.ranking_border_srodek{
+    border-right: 1px solid #B1B1B1; 
+}
+
+.ranking_nazwa{
+    font-size: clamp(36px, 2.5vw, 70px);
+}
+.ranking_punkty{
+   font-size: clamp(24px, 1.5vw, 40px);
+}
+
+.p0{
+    padding: 0 !important;
+}
+
+.menu_napis{
+margin-left: 5% !important;
+}
+
+.szczegoly_domu{
+    font-size: clamp(24px, 3vw, 100px);
+    color: #B1B1B1;
+    text-align: center;
+    padding: 5%;
+}
+
+.szczegoly_domu_nazwa{
+    font-size: clamp(24px, 2.5vw, 100px);
+    color: white;
+    text-align: center;
+}
+
+.szczegoly_uczniowie{
+    overflow: auto;
+    max-height: 600px;
+}
+
+.szczegoly_design{
+    max-width: 400px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.szczegoly_historia_tytul{
+    font-size:clamp(24px, 2.5vw, 100px);
+    white-space: nowrap;
+}
+
+.szczegoly_overflow{
+    max-height: 400px;
+    overflow: auto;
+    margin-bottom: 4%;
+}
+
+.szczegoly_wrap_dane{
+width: 80% !important;
+
+}
+
+.szczegoly_dane_margin{
+    margin: auto;
+}
+
+.panel{
+    font-family: var(--bs-body-font-family) !important;
+}
+
+.panel_menu{
+    width: 85% !important;
+    min-height: 40px;
+    text-align: left !important;
+}
+
+
+@media screen and (max-width: 992px) {
+    .logo{
+    display: none;
+    }
+
+    .menu{
+        margin-left: 0 !important;
+    }
+
+
+    .menu-top{
+        margin-top: 1% !important;
+    }
+
+    .ranking_border_top{
+        border-top: none;
+    }
+    
+    .ranking_border_bottom{
+        border-top: none;
+        border-bottom: none;
+    }
+    .ranking_border_srodek{
+        border-right: none; 
+    }
+    
+    .ranking_nazwa{
+        font-size: clamp(26px, 2vw, 50px);
+        padding-left: 12% !important;
+    }
+    .ranking_punkty{
+       font-size: clamp(16px, 1vw, 30px);
+       padding-left: 12% !important;
+    }
+
+    .dom_wrap {
+        padding-left: 0px !important;
+    }
+
+    .glowna_logo {
+        margin-top: 2%;
+        width: 60%;
+    }
+
+    .glowna_napis {
+        border-bottom: 1px #B1B1B1 solid;
+    }
+
+    #tlo_napis_maly {
+        font-size: clamp(13px, 2vw, 32px);
+        color: white !important;
+    }
+    
+    #tlo_napis_duzy {
+        font-size: clamp(32px, 4vw, 100px);
+        color: white !important;
+    }
+    
+    .mobile_border_left{
+    border-right: #B1B1B1 solid 2px;
+    padding: 0 !important;
+    }
+
+    .szczegoly_design{
+        max-width: 170px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .szczegoly_overflow{
+        max-height: 200px;
+        overflow: auto;
+    }
+}
